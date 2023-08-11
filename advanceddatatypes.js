@@ -123,20 +123,11 @@
 // let = array.unshift(1000)
 // console.log(array)
 
-
 // let array = [10,20,30,40,50,60]
-
 //shift will be remove the first value form the index
 // let returnValue =array.shift()
-
 // console.log(array,returnValue);
-
-
-
-
 //splice (add,update, and delete)
-
-
 // let array =[10,20,30,40,50]
 //delete the value
 // let returnValue = array.splice(2,2)
@@ -154,7 +145,35 @@
 // console.log(array);
 
 
+/**
+ * 
+ * Iterables
+ * String is iterable
+ * Iterables and array-likes
+ */
 
+// let array = [10,20,30,40]
 
+// for (const value of array){
+//     console.log(array);
+// }
+
+// let str = "saurabh"
+
+// for (const value of str){
+//     console.log(str);
+// }
+
+//object is not iterable in javascript
+// let object = {
+// firstname:"saurabh",
+// lastname:"kumar",
+
+// }
+// console.log(object);
+
+// for(const key of object){
+//     console.log(key);
+// }
 
 

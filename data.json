@@ -1,0 +1,15 @@
+{
+    "name":"saurabh",
+    "age":20
+}
+
+
+
+//commenting in json file will be not suppoeted in json file
+// let object ={
+//     "firstName": "john",
+//     "lastName":"doe",
+//     "age":10
+// }
+
+// let jsonobject = json.stringfy(object)

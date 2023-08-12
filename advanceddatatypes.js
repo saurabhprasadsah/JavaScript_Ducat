@@ -247,3 +247,34 @@
 
 // console.log(a,b,c);
 
+
+//object 
+
+
+// let object={
+//     firtName:"saurabh",
+//     lastName:"kumar",
+//     age:10
+// }
+
+
+//call the value will be on the key pair
+// let {firtName,lastName,age,test ="test"} =object
+
+//rename the key of objects
+// let {firstName:first,lastName,age} = object
+
+//change the name of the key and call the key value
+
+// console.log(first,lastName,age);
+
+// console.log(object);
+
+
+
+
+
+
+
+
+

@@ -271,6 +271,33 @@
 // console.log(object);
 
 
+let object = {
+ firstname:"saurabh",
+ lastname:"kumar",
+ age:10
+}
+// console.log(object);
+
+//destructuring in function
+//object convert to json object
+
+// console.log(JSON.stringify(object));
+let jsonobject = JSON.stringify(object);
+
+//TYPE OF JSONOBJECT
+console.log(typeof jsonobject);
+
+//json to object
+console.log(JSON.parse(jsonobject));
+
+
+
+
+
+
+
+
+
 
 
 

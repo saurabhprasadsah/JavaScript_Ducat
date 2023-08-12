@@ -211,15 +211,15 @@
 
 // new Map()
 
-let map = new Map();
-map.set(1,  10)
-map.set(2, 20)
-map.set(3, 30)
-map.set(4, 40)
-map.set(5, 50)
-map.set(6, 60)
-map.set(7, 70)
-map.set(8, 80)
+// let map = new Map();
+// map.set(1,  10)
+// map.set(2, 20)
+// map.set(3, 30)
+// map.set(4, 40)
+// map.set(5, 50)
+// map.set(6, 60)
+// map.set(7, 70)
+// map.set(8, 80)
 
 // console.log(map.get(4));
 
@@ -232,5 +232,18 @@ map.set(8, 80)
 // console.log(map);
 
 
+//Destructing assingment
 
+// let array = [10,20,30,40];
+
+// let [a,b,c,d] = array;
+// console.log(a,b,c,d);
+
+
+///pass the default the value
+// let array =[10];
+
+// let [a,b=10,c=30] = array;
+
+// console.log(a,b,c);
 

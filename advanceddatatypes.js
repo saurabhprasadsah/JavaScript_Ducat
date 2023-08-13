@@ -289,11 +289,10 @@ console.log(typeof jsonobject);
 
 //json to object
 console.log(JSON.parse(jsonobject));
-
-
-//json file to show the json object
-
+//json file to show the json objects
 //https://restcountries.com/v3.1/all
+
+
 
 
 

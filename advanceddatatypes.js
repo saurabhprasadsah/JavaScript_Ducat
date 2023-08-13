@@ -297,26 +297,26 @@
 // let [a,b,...c] = array;
 // console.log(a, b,c);
 
-let object = {
-    name: {
-        firstName: 'John',
-        lastName: 'Doe'
-    },
-    age: 10
-}
+// let object = {
+//     name: {
+//         firstName: 'John',
+//         lastName: 'Doe'
+//     },
+//     age: 10
+// }
 
-let {age, ...test} = object;
-console.log(age, test);
+// let {age, ...test} = object;
+// console.log(age, test);
 
-let {name:{firstName}} = object
-console.log(firstName);
+// let {name:{firstName}} = object
+// console.log(firstName);
 
-let {name:{lastName}} = object
-console.log(lastName);
+// let {name:{lastName}} = object
+// console.log(lastName);
 
 
-let {age:{}} = object
-console.log(age);
+// let {age:{}} = object
+// console.log(age);
 
 
 //property flags and descriptors
@@ -328,6 +328,20 @@ console.log(age);
 //non-configurible
 //objec.define property
 //object.getdown property descriptors
+
+let object ={
+    firstName:"saurabh",
+    lastName:"kumar"
+}
+console.log(object.firstName);  
+
+
+object.defineProperty(object,"name",{
+
+    Writable:false
+})
+
+
 
 
 

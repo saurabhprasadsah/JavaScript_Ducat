@@ -271,26 +271,53 @@
 // console.log(object);
 
 
-let object = {
- firstname:"saurabh",
- lastname:"kumar",
- age:10
-}
+// let object = {
+//  firstname:"saurabh",
+//  lastname:"kumar",
+//  age:10
+// }
 // console.log(object);
 
 //destructuring in function
 //object convert to json object
 
 // console.log(JSON.stringify(object));
-let jsonobject = JSON.stringify(object);
+// let jsonobject = JSON.stringify(object);
 
-//TYPE OF JSONOBJECT
-console.log(typeof jsonobject);
+// //TYPE OF JSONOBJECT
+// console.log(typeof jsonobject);
 
-//json to object
-console.log(JSON.parse(jsonobject));
+// //json to object
+// console.log(JSON.parse(jsonobject));
 //json file to show the json objects
 //https://restcountries.com/v3.1/all
+
+// Array destructuring
+// let array = [10,20,30,40,50,60,70,80];
+// let [a,b,...c] = array;
+// console.log(a, b,c);
+
+let object = {
+    name: {
+        firstName: 'John',
+        lastName: 'Doe'
+    },
+    age: 10
+}
+
+let {age, ...test} = object;
+console.log(age, test);
+
+let {name:{firstName}} = object
+console.log(firstName);
+
+let {name:{lastName}} = object
+console.log(lastName);
+
+
+let {age:{}} = object
+console.log(age);
+
 
 //property flags and descriptors
 

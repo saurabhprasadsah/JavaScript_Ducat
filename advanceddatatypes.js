@@ -374,6 +374,7 @@
   // Expected output: 42
   
 
+
 //   const object1 = {
 //     a: 'somestring',
 //     b: 42,
@@ -386,6 +387,16 @@
 //   for(const [key, value] of Object.entries(object1)){
 //     console.log(`${key}: ${value}`)
 //   }
+
+
+// const obj = { foo: "bar", baz: 42 };
+// console.log(Object.entries(obj));
+
+
+// let obj1 ={name:"Saurabh", age:45};
+
+// console.log(Object.entries(obj1));
+
   
 
 

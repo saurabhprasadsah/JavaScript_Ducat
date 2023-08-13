@@ -326,20 +326,39 @@
 //non-writble
 //non-enumerable
 //non-configurible
-//objec.define property
-//object.getdown property descriptors
+// //objec.define property
+// //object.getdown property descriptors
 
-let object ={
-    firstName:"saurabh",
-    lastName:"kumar"
-}
-console.log(object.firstName);  
+// let object ={
+//     firstName:"saurabh",
+//     lastName:"kumar"
+// }
+// // console.log(object.firstName);  
+// // console.log(object);
+
+// Object.defineProperty(object,'firstName',{
+//     firstName:"raju",
+//     writable:false,
+// });
 
 
-object.defineProperty(object,"name",{
+// console.log(object.firstName);
 
-    Writable:false
-})
+
+const object1 = {};
+
+Object.defineProperty(object1, 'property1', {
+  value: 42,
+  //in this case the value updated 
+  writable:false|true,
+});
+
+object1.property1 = 77;
+// Throws an error in strict mode
+
+console.log(object1.property1);
+// Expected output: 42
+
 
 
 

@@ -292,6 +292,17 @@ console.log(JSON.parse(jsonobject));
 //json file to show the json objects
 //https://restcountries.com/v3.1/all
 
+//property flags and descriptors
+
+//property flags
+//writabl - if true the value can be changed otherwise read only!
+//non-writble
+//non-enumerable
+//non-configurible
+//objec.define property
+//object.getdown property descriptors
+
+
 
 
 

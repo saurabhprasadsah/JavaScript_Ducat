@@ -345,19 +345,34 @@
 // console.log(object.firstName);
 
 
-const object1 = {};
+// const object1 = {};
 
-Object.defineProperty(object1, 'property1', {
-  value: 42,
-  //in this case the value updated 
-  writable:false|true,
-});
+// Object.defineProperty(object1, 'property1', {
+//   value: 42,
+//   //in this case the value updated 
+//   writable:false|true,
+// });
 
-object1.property1 = 77;
-// Throws an error in strict mode
+// object1.property1 = 77;
+// // Throws an error in strict mode
 
-console.log(object1.property1);
+// console.log(object1.property1);
 // Expected output: 42
+
+//freeze 
+//non-writable and non-configurable
+// const obj = {
+//      prop: 65,
+//   };
+  
+//   Object.freeze(obj);
+//   //returns the same object that was passed in.
+//    obj.prop = 65;
+//   // Throws an error in strict mode
+  
+//   console.log(obj.prop);
+  // Expected output: 42
+  
 
 
 

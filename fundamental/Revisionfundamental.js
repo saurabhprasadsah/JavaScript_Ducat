@@ -226,3 +226,89 @@
 
 // let number = Number(bool);
 // console.log(number,typeof number);
+
+
+
+// String concatenation with binary +
+// let firstname = "deepak"
+// let secondname = "singh"
+
+// let fullname = firstname + " " + secondname;
+// console.log(fullname);
+
+
+// let firstName ="saurabh";
+// let lastName="kumar";
+// let fullname = firstName+" "+lastName;
+// console.log(fullname);
+
+
+
+/**
+ * 
+ * Conditional branching
+ * 
+ * The “if” statement
+ * The “else” clause
+ * Several conditions: “else if”
+ * Conditional operator ‘?’
+ * 
+ */
+//  // if (condition) {
+
+//  }
+
+// let number = 16
+
+// if (number % 2 == 0){
+
+//     console.log("number is even");
+// }
+// else{
+//     console.log("number is odd");
+// }
+
+
+// let num= 13;
+
+// if (num % 2 == 0){
+//     console.log("numer is even");
+// }
+// else{
+//     console.log("number is odd");
+// }
+
+
+// if else ladder
+// if (condition) {
+
+// } else if(condition) {
+
+// } else if(condition) {
+
+// } else if(condition) {
+
+// } else if(condition) {
+
+// } else if(condition) {
+
+// } else {
+
+// }
+
+/*let number =25;
+
+if (number % 2 ==0 & number % 5 ==0){
+    console.log("this number is divisible by 2 and 5");
+}else if(number % 5 ==0 )
+{
+console.log("this number is divisible by 5");
+}
+else if( number % 2 ==0){
+    console.log("this number is divisible by 2");
+}else {
+    console.log("number is not diviible by 2 and 5");
+}
+*/
+
+

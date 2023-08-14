@@ -146,14 +146,48 @@
 
 
 //Symbol
-let sym = Symbol('id')
+// let sym = Symbol('id')
 
-console.log(sym);
-const sym1 = Symbol();
-const sym2 = Symbol("foo");
-const sym3 = Symbol("foo");
+// console.log(sym);
+// const sym1 = Symbol();
+// const sym2 = Symbol("foo");
+// const sym3 = Symbol("foo");
 
 
-console.log(sym1);
-console.log(sym2);
-console.log(sym3);
+// console.log(sym1);
+// console.log(sym2);
+// console.log(sym3);
+
+
+/**
+ * Interaction: alert, prompt, confirm
+ * 
+ * alert
+ * prompt
+ * confirm
+ */
+
+
+//alert("hello world")
+
+// //prompt
+// let name= prompt("enter your name here?")
+
+// console.log(name);
+
+
+//confirm
+
+// let result= confirm("are you sure want to delete your account?")
+
+// console.log("result");
+
+
+// document.write()
+//document.write("hello from document.write()")
+
+// console
+// console.log("hello form console.log")
+// console.warn("hello from console.warn()")
+// console.dir(window)
+

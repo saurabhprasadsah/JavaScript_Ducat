@@ -105,5 +105,15 @@
 // console.log (array);
 
 
+//string 
+// let str = 'sfasfa\\fsdasfd';
+
+// //let str = "deepak singh";
+
+// //str = "jhon"
+
+// console.log(str, typeof str);
+
+
 
 

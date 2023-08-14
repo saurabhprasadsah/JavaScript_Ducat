@@ -114,6 +114,46 @@
 
 // console.log(str, typeof str);
 
+// object
+
+// let array = [
+//     "deepak@gmail.com",
+//     "deepak", 
+// ];
+
+// let array =[
+//         "saurabh",
+//         "kumar"
+// ]
+
+// console.log(array[0]);
+// console.log(array[1]);
+
+//object
+
+// let object = {
+//     email: "deepak@gmail.com",
+//     name:"deepak",
+// }
+
+// object.age =10;
+
+// console.log(object);
+// console.log(typeof object);
+
+// console.log(object.name);
+// console.log(object.email);
 
 
+//Symbol
+let sym = Symbol('id')
 
+console.log(sym);
+const sym1 = Symbol();
+const sym2 = Symbol("foo");
+const sym3 = Symbol("foo");
+
+
+console.log(sym1);
+console.log(sym2);
+console.log(sym3);

@@ -191,3 +191,38 @@
 // console.warn("hello from console.warn()")
 // console.dir(window)
 
+/* Type Conversions
+ * 
+ * String conversion
+ * Numeric Conversion
+ * Boolean Conversion
+ */
+
+/*String conversion
+* let number =10;
+* console.log(typeof number, number);
+
+* let str = String(number)
+* console.log(typeof str, str);
+
+* let bool = true;
+
+ */ 
+//console.log(typeof bool,bool);
+
+//Numeric conversion
+
+// let string = "saurabh";
+// console.log(string, typeof string);
+
+// let number = Number(string);
+// console.log(number,typeof number);
+
+//Bool
+
+// let bool = false;
+// console.log(bool, typeof bool);
+
+
+// let number = Number(bool);
+// console.log(number,typeof number);

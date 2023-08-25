@@ -220,6 +220,7 @@ let child = new ChildClass()
 console.log(child.getClassName());
 
 
+
 /**
  * Static properties and methods
  * 

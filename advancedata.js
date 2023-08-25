@@ -693,11 +693,11 @@
  * Object.entries(obj) – returns an array of [key, value] pairs.
  */
 
-let object = {
-    firstName: "deepak",
-    lastName: "Singh",
-    age: 10
-}
+// let object = {
+//     firstName: "deepak",
+//     lastName: "Singh",
+//     age: 10
+// }
 
 // for (const value of object) {
 //     console.log(value);
@@ -718,11 +718,11 @@ let object = {
 // }
 
 // entries
-console.log(Object.entries(object));
+// console.log(Object.entries(object));
 
-for (const value of Object.entries(object)) {
-    console.log(value);
-}
+// for (const value of Object.entries(object)) {
+//     console.log(value);
+// }
 
 
 /**

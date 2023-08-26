@@ -312,3 +312,28 @@ else if( number % 2 ==0){
 */
 
 
+
+// class ParentClass{
+//     static counter =10;
+
+//     getcounter(){
+//         return this.counter;
+
+//     }
+// }
+
+// console.log(ParentClass.counter);
+
+
+class employee{
+    firstname ="saurabh";
+    //private
+    #salary =1000;
+
+    
+}
+
+let obj = new employee();
+console.log(obj.firstname);
+console.log(obj.salary);
+

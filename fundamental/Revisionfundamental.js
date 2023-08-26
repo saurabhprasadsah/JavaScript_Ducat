@@ -325,15 +325,49 @@ else if( number % 2 ==0){
 // console.log(ParentClass.counter);
 
 
-class employee{
-    firstname ="saurabh";
-    //private
-    #salary =1000;
+//public and private
+
+// class employee{
+//     firstname ="saurabh";
+//     //private
+//     #salary =1000;
+
+//     #getsalary(){
+//         return this.salary
+//     }
+
+
+// }
+
+// let obj = new employee();
+// console.log(obj.firstname);
+// console.log(obj.salary);
+
+// console.log(obj.#getsalary());
+
+//extending built-in classes
+//  class Object1 extends Object{
+//     getobject1Method(){
+//         return "getobject1Method"
+//     }
+//  } 
+
+//  let object1 = new Object1();
+//  console.log(object1.getobject1Method());
+
+
+//class of "instanceof"
+
+// class A {}
+
+// class B {}
+
+// let a = new A;
+// let b = new B;
+
+// console.log(a instanceof A); // True
+
+// console.log(a instanceof B);  //FALSE
+
 
     
-}
-
-let obj = new employee();
-console.log(obj.firstname);
-console.log(obj.salary);
-

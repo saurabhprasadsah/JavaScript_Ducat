@@ -140,34 +140,70 @@
 // })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let fetch = fetch('https://restcountries.com/v3.1.all');
-
-// reponse.then((data)=>{
-//     console.log(data);
-//     return data.json();
+// data tranfer from one then to another
+// let promise = new Promise((resolve, reject) => {
+//     resolve("saurabh");
 // })
+
+
+// when data will be return the data will be transfer to another block
+
+// promise.then((data) => {
+//      console.log(data);
+//     // throw new Error('Error occur');
+//     return data;
+// }).then((data) => {
+
+//     console.log(data);
+// }).catch((error)=> {
+//     console.log(error.message);
+// })
+
+// let response = fetch('https://restcountries.com/v3.1/all');
+
+// response.then((data) => {
+//     return data.json();
+// }).then((data) => {
+//     console.log(data);
+// }).catch((error) => {
+//     console.log(error.message);
+// })
+
+
+// async await
+async function getCountries() {
+    let response = await fetch('https://restcountries.com/v3.1/all');
+
+    let data = await response.json();
+
+    return data
+}
+
+// console.log(getCountries());
+getCountries().then((data) => {
+    console.log(data);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

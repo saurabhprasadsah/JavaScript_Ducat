@@ -356,6 +356,8 @@ else if( number % 2 ==0){
 //  console.log(object1.getobject1Method());
 
 
+
+
 //class of "instanceof"
 
 // class A {}

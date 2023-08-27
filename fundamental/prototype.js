@@ -63,9 +63,9 @@
 //      return  this.array }
 
 // property
-Array.prototype.name = "deepak singh gusain"
+// Array.prototype.name = "deepak singh gusain"
 
-console.log(array.name);
+// console.log(Array.name);
 
 
 

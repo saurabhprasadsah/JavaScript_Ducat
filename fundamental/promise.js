@@ -93,6 +93,54 @@
 // })
 
 
+//callback hell function
+
+// function test(callback) {
+//     callback()
+// }
+
+// test(()=>{
+//     console.log("Test 1");
+//     test(()=>{
+//         console.log("Test 2");
+//         test(()=>{
+//             console.log("Test 3");
+//     })
+// })
+// })
+
+// test(()=> {
+//     console.log("Test 1");
+//     test(() => {
+//         console.log("Test 2");
+//         test(()=> {
+//             console.log("Test 3");
+//             test(() => {
+//                 console.log("Test 4");
+//             })
+//         })
+//     })
+// })
+
+
+//solition of callback hell function
+
+// let promise = new Promise ((resolve,reject)=>{
+//     resolve('test')
+// })
+
+// console.log(promise);
+
+// promise.then((data)=>{
+//     console.log("Test 1");
+// }).then((data)=>{
+//     console.log("Test 2");
+// }).then((data)=>{
+//     console.log("Test 3");
+// })
+
+
+
 
 
 

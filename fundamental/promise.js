@@ -169,20 +169,18 @@
 //     console.log(error.message);
 // })
 
-
 // async await
 //async await always use in with function
 async function getCountries() {
     let response = await fetch('https://restcountries.com/v3.1/all');
-
     let data = await response.json();
-
     return data
 }
-
 // console.log(getCountries());
 getCountries().then((data) => {
     console.log(data);
+}).catch((error)=>{
+    console.log(error.message);
 })
 
 

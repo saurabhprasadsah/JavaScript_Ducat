@@ -159,6 +159,7 @@
 //     console.log(error.message);
 // })
 
+
 // let response = fetch('https://restcountries.com/v3.1/all');
 
 // response.then((data) => {
@@ -169,8 +170,13 @@
 //     console.log(error.message);
 // })
 
-// async await
-//async await always use in with function
+//  async await
+// async await always use in with function
+
+
+
+
+
 async function getCountries() {
     let response = await fetch('https://restcountries.com/v3.1/all');
     let data = await response.json();

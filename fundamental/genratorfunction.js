@@ -1,6 +1,7 @@
 
 function* genratorfunction (a,b,c){
     yield a; 
+    return a    // if return the value then it should not be excute the next value!
     yield a+10;
     yield a +30; 
     yield b +30; 

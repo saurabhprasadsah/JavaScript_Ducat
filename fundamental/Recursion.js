@@ -25,4 +25,24 @@
 // }
 // console.log(addition(value));
 
+//stack function 
 
+function a(){
+    console.log("a");
+    b();
+}
+function b(){
+    console.log("b");
+    c();
+}
+
+function c(){
+    console.log("C");
+}
+a()
+
+/*
+a
+b
+c
+*/

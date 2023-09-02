@@ -27,20 +27,22 @@
 
 //stack function 
 
-function a(){
-    console.log("a");
-    b();
-}
-function b(){
-    console.log("b");
-    c();
-}
+// function a(){
+//     console.log("a");
+//     b();
+// }
+// function b(){
+//     console.log("b");
+//     c();
+// }
 
-function c(){
-    console.log("C");
-}
-a()
+// function c(){
+//     console.log("C");
+// }
+// a()
 
+
+//value will be shown as a,b,c
 /*
 a
 b

@@ -17,16 +17,16 @@
 
 //<!Custom Erorr -->
 
-try{
-    let a =10;
-    let b =3;
-    if(!b){
-        throw new error("b value should be greater than zero");
+// try{
+//     let a =10;
+//     let b =3;
+//     if(!b){
+//         throw new error("b value should be greater than zero");
 
-    }console.log(a/b);   
-}catch(error){
-    console.log(error.message);
-}
+//     }console.log(a/b);   
+// }catch(error){
+//     console.log(error.message);
+// }
 
 
 

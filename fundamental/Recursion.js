@@ -48,3 +48,8 @@ a
 b
 c
 */
+
+
+/* hosting function--> call first the n it should be define as */
+console.log(a);
+a =10

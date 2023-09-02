@@ -1,0 +1,28 @@
+/**
+ * advanced function
+ * 
+ * Recursion and stack
+ * THE Excution context and stack
+ * Rest parameters and spread syntax
+ * 
+ * Rest parametrs
+ * spread
+ * copy and array/objects via speed
+ * operator
+ *
+ * 
+ */
+
+//recursion 
+
+// let value = 10;
+// function addition(value){
+//     let sum = 0;
+//     if( value>0){
+//         sum = value +addition(value-1);
+//     }
+//     return sum
+// }
+// console.log(addition(value));
+
+

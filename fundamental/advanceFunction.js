@@ -85,13 +85,17 @@ c
 
 
 //objects
+
 let objects ={
     firstName :"saurabh",
     firstName:"raju", 
 }
+
 let obj2 = {...objects}
 obj2.age=10;
+
 objects.name="saurabh"
+
 console.log(objects);
 console.log(obj2);
 

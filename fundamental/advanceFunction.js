@@ -86,18 +86,18 @@ c
 
 //objects
 
-let objects ={
-    firstName :"saurabh",
-    firstName:"raju", 
-}
+// let objects ={
+//     firstName :"saurabh",
+//     firstName:"raju", 
+// }
 
-let obj2 = {...objects}
-obj2.age=10;
+// let obj2 = {...objects}
+// obj2.age=10;
 
-objects.name="saurabh"
+// objects.name="saurabh"
 
-console.log(objects);
-console.log(obj2);
+// console.log(objects);
+// console.log(obj2);
 
 
 //objects
@@ -107,3 +107,23 @@ console.log(obj2);
 // }
 
 // console.log(objects);
+
+
+/*
+varible- scope
+Nested-function
+Lexical-function
+
+*/
+
+//var ka apna koi block scope nhi hota 
+
+//IIFE(IMEDIATE INVOKE Function EXECUTION)
+
+// (()=>{
+//     console.log("HELLO IIFE");
+// })()
+
+
+
+

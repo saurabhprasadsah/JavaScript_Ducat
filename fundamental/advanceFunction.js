@@ -109,12 +109,165 @@ c
 // console.log(objects);
 
 
+
+//deepak sir code 
+
+/**
+ * Variable scope 
+ *  
+ * 
+ * Nested functions
+ * 
+ * Lexical Environment
+ * 
+ */
+
+// Nested functions
+// function testing() {
+//     function t() {
+//         console.log("t");
+//     }
+
+//     t();
+// }
+
+// testing();
+
+// // Lexical Environment
+// let a = 10;
+
+// function testing() {
+
+//     function t() {
+//         console.log(a);
+//     }
+
+//     t();
+// }
+
+// testing();
+
+/**
+ * 
+ * The old "var"
+ * “var” has no block scope
+ * “var” tolerates redeclarations
+ * “var” variables can be declared below their use
+ * 
+ * IIFE
+ */
+
+// {
+//     var firstName = 'deepak'
+// }
+
+// console.log(firstName);
+
+// let firstName = "deepak"
+
+// {
+//     let firstName = "John";
+//     console.log(firstName);
+// }
+
+// var firstName = "deepak"
+// var firstName = "john"
+// console.log(firstName);
+
+// function testing(b) {
+//     var a = 10;
+//     console.log(a, b);
+// }
+
+// testing(10)
+// console.log(b);
+
+// IIFE
+// (() => {
+//     console.log("IIFE");
+// })()
+
+
+
+//endfor code
+
+
+
+
 /*
 varible- scope
 Nested-function
 Lexical-function
 
 */
+
+//Nested function
+
+// function testing(){
+//     function t(){
+//         console.log("t");
+//     }
+//     t();
+// }
+// testing();
+
+
+//Lexical environment
+
+// let a =10;
+// function testing(){
+//     function t (){
+//         console.log(a);
+//     }
+//     t();
+// }
+// testing();
+
+
+/**
+ * 
+ * The old "var"
+ * “var” has no block scope
+ * “var” tolerates redeclarations
+ * “var” variables can be declared below their use
+ * 
+ * IIFE
+ */
+
+//  {
+//      var firstName = 'deepak'
+//  }
+// console.log(firstName);
+
+
+let firstName = "deepak"
+
+ {
+     let firstName = "raju";
+     console.log(firstName);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //var ka apna koi block scope nhi hota 
 
@@ -127,18 +280,18 @@ Lexical-function
 /* closers ->closers is function which hold the parent value in a memory ! */
 
 
-function testing(){
-    let a =10;
-    let b=20;
-    let c = 40;
+// function testing(){
+//     let a =10;
+//     let b=20;
+//     let c = 40;
 
-    //this function holds the value of the a,b,c
-    return function(){
-        console.log(a+b,c);
-    }
-}
+//     //this function holds the value of the a,b,c
+//     return function(){
+//         console.log(a+b,c);
+//     }
+// }
 
-let t = testing()
-console.log(t);
-t();
+// let t = testing()
+// console.log(t);
+// t();
 

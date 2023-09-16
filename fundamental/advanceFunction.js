@@ -124,6 +124,21 @@ Lexical-function
 //     console.log("HELLO IIFE");
 // })()
 
+/* closers ->closers is function which hold the parent value in a memory ! */
 
 
+function testing(){
+    let a =10;
+    let b=20;
+    let c = 40;
+
+    //this function holds the value of the a,b,c
+    return function(){
+        console.log(a+b,c);
+    }
+}
+
+let t = testing()
+console.log(t);
+t();
 

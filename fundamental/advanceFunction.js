@@ -243,12 +243,14 @@ Lexical-function
 // console.log(firstName);
 
 
-let firstName = "deepak"
+// let firstName = "deepak"
 
- {
-     let firstName = "raju";
-     console.log(firstName);
- }
+//  {
+//      let firstName = "raju";
+//      console.log(firstName);
+//  }
+
+
 
 
 

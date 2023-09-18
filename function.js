@@ -1,8 +1,6 @@
 /*function
-
 function declaration
 local variables
-
 outer variables
 parameters
 default value
@@ -10,7 +8,6 @@ returning a values
 function expression
 call back function
 arrow function
-
 */
 
 
@@ -44,14 +41,16 @@ Testing()
 
 */
 
+/*
+function  testing(){
+    let a =10;  //local variable or local scope
+    console.log(a);
+}
+testing()
 
-// function  testing(){
-//     let a =10;  //local variable or local scope
-//     console.log(a);
-// }
-// testing()
+console.log(a)
 
-// console.log(a)
+*/
 
 
 /*<------Global variables/global class --->

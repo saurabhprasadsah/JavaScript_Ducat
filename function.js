@@ -20,8 +20,6 @@ arrow function
 */
 
 
-
-
 /*addition()
 pass the parametrs
 function addition (num1,num2){

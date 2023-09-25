@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="" id="form" name="form">
+            <input type="text" name="first_name" id="first_name" placeholder="first name">
+            <!-- <input type="text" name="last_name" id="last_name" placeholder="last name"> -->
+            <button>Submit</button>
+        </form>
+
+        <script>
+            // submit
+            let form = document.getElementById("form");
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                // select one element then value
+                let first_name = document.getElementById("first_name")
+                let last_name = document.getElementById("last_name")
+                console.log(first_name.value);
+                console.log(last_name.value);
+
+                // event.target
+                console.dir(event.target);
+                for (const element of event.target) {
+                    console.log(element.value);
+                }
+
+                // document.forms index
+                // console.dir(document.forms[0]);
+
+                // for (const element of document.forms[0]) {
+                //     console.log(element.value);
+                // }
+
+                // document.forms name
+                console.dir(document.forms['form']);
+
+                for (const element of document.forms['form']) {
+                    console.log(element.value);
+                }
+
+                console.log("form has been submitted");
+            })
+
+            // change
+            // let first_name = document.getElementById('first_name');
+            // first_name.addEventListener('change', function(event){
+            //     console.log("change event fired");
+            //     console.log(event.target.value);
+            // })
+
+            // focus
+            // let first_name = document.getElementById('first_name');
+            // first_name.addEventListener('focus', function(event){
+            //     console.log("focus event fired");
+            // })
+
+            // // blur
+            // let first_name = document.getElementById('first_name');
+            // first_name.addEventListener('blur', function(event){
+            //     console.log("blur event fired");
+            // })
+        </script>
+    </body>
 </html>

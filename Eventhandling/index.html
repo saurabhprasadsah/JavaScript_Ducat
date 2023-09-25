@@ -6,6 +6,51 @@
     <title>Document</title>
 </head>
 <body>
-    
+     <!-- <button onclick="console.log('hello world')">Click Me!</button> -->
+
+    <!-- <button onclick="buttonClicked(event)">Click Me!</button> -->
+
+    <button id="button">Click Me!</button>
+
+    <script>
+        // function buttonClicked(event) {
+        //     console.log("buttonClicked");
+        //     console.log(event);
+        // }
+
+        // 2
+        // let button = document.getElementById("button");
+        // console.dir(button);
+
+        // button.onclick = function(event) {
+        //     console.log("buttonClicked");
+        //     console.log(event);
+        // }
+
+        // 3
+        // let button = document.getElementById("button");
+
+        // button.addEventListener("click", function(e) {
+        //     console.log("buttonClicked");
+        //     console.log(e);
+        // })
+
+        // this
+        // let button = document.getElementById("button");
+
+        // button.onclick = function(event) {
+        //    console.log(this);
+        // }
+
+        button.onclick = (event) => {
+           console.log(this);
+        }
+
+        // button.addEventListener("click", (e) => {
+        //     console.log(this);
+        // })
+
+
+    </script>
 </body>
 </html>

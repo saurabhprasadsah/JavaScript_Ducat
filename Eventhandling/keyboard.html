@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="text" id="input">
+
+        <script>
+            let input = document.getElementById("input");
+
+            // keypress
+            // input.addEventListener('keypress', function (event) {
+            //     console.log("keypress");
+            //     console.log(event.target.value);
+            // })
+
+            // keydown
+            //keydown and keypress will be same but only name will be same
+            input.addEventListener('keydown', function (event) {
+                console.log("keydown");
+                console.log(event.target.value);
+            })
+
+            // // keyup
+            // input.addEventListener('keyup', function (event) {
+            //     console.log("keyup");
+            //     console.log(event.target.value);
+            // })
+
+            // document.onkeydown = function (e) {
+            //     if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) { // Alt+c, Alt+v will also be disabled sadly.
+            //         alert('not allowed');
+            //     }
+            //     return false;
+            // };
+        </script>
+    </body>
 </html>

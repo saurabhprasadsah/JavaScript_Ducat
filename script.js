@@ -40,36 +40,37 @@
 
 
 //call back function
-// function calculate(a,b,func){
-//     func(a,b)
-// }
-// calculate(10,20,function(a,b){
-//     console.log(a+b)
-// })
+/*function calculate(a,b,func){
+    func(a,b)
+}
+calculate(10,20,function(a,b){
+    console.log(a+b)
+})
+*/
 
 
 //computed propertied
- //let fullname = 'saurabh'
+/* let fullname = 'saurabh'
 
-//  function test(){
-//   return{
-//     firtname:"raju"
-//   }
-//  }
-// console.log(test);
+ function test(){
+  return{
+    firtname:"raju"
+  }
+ }
+console.log(test);
+*/
 
-//share only address
+/*share only address
 
-// reference type  
+reference type  
+let array=[10,20,30];
+let array2 = array;
+array2[array2.length] =50;
+console.log(array,array2)
+console.log(array2)
 
-// let array=[10,20,30];
 
-// let array2 = array;
-
-// //array2[array2.length] =50;
-// //console.log(array,array2)
-
-// console.log(array2)
+*/
 
 
 

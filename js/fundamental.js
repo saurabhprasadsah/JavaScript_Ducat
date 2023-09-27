@@ -1067,6 +1067,7 @@
 // sum and addition global variable and function
 // let sum = 0;
 
+
 // function addition(a,b) {
 //     sum = a + b;
 // }
@@ -1074,6 +1075,7 @@
 // addition(10,20)
 
 // console.log(sum);
+
 
 // outer variable
 // function testing() {
@@ -1086,6 +1088,7 @@
 // }
 
 // testing();
+
 
 // Default values
 
@@ -1180,6 +1183,8 @@
 //             console.log("please enter the valid operator");
 //     }
 // }
+
+//using callback function in calculator
 
 // calculate(10,20, "-")
 

@@ -74,60 +74,70 @@
 
 
 //var --> old school 
-// var firstName = "saurabh";
+/*var firstName = "saurabh";
 
-// var firstName ="raju"; // this will be overwright the value.
+var firstName ="raju"; // this will be overwright the value.
 
-// console.log(firstName);
+console.log(firstName);
 
-// var PI =3.14; //when value varible wil be created the same varible will be created.
-// var PI =2.1;
-// console.log("PI");
+var PI =3.14; //when value varible wil be created the same varible will be created.
+var PI =2.1;
+console.log("PI");
+
+*/
 
 
 //let --> model school
 
-// let firstName = "saurabh"
+/*let firstName = "saurabh"
 
-// let firstName ="saurabh" // we can use the varible once when we will cretaed.
+let firstName ="saurabh" // we can use the varible once when we will cretaed.
+console.log(firstName);
+const -->model school
 
-// console.log(firstName);
+const firstName ="saurabh";
 
-// const -->model school
+ firstName = "raju" --> when we varible will be created then no created another time.
+console.log(firstName);
 
-
-// const firstName ="saurabh";
-
-//  firstName = "raju" --> when we varible will be created then no created another time.
-
-// console.log(firstName);
+*/
 
 
-// DATA TYPES
+/*DATA TYPES
 
-// let number = 1111111;
-// console.log(number, typeof number);
+let number = 1111111;
+console.log(number, typeof number);
 
 
-// let number = true;
-// console.log(number, typeof number);
+let number = true;
+console.log(number, typeof number);
+*/
 
-////<!---Object---->
+//Object
 
-// let array = [10,20,30,40,50]
+/*let array = [10,20,30,40,50]
 
-// console.log(array[0]);
-// console.log(array[3]);
-// let array = ["deepak", 'deepak@gmail.com']
-// console.log(array[0],array[1]);
-// let Object ={
-//     name :"saurabh"
-// }
-// console.log(Object)
-// let Name = prompt("enter  your name");
-// console.log(Name)
-// let number = prompt("enter your number")
-// console.log(number,typeof number);
+console.log(array[0]);
+console.log(array[3]);
+
+let array = ["deepak", 'deepak@gmail.com']
+
+console.log(array[0],array[1]);
+
+let Object ={
+    name :"saurabh"
+}
+
+console.log(Object)
+
+let Name = prompt("enter  your name");
+console.log(Name)
+
+let number = prompt("enter your number")
+
+console.log(number,typeof number);
+
+*/
 
 
 

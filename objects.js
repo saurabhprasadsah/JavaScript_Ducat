@@ -11,64 +11,67 @@
  * The "for..in" loop
  */
 
-// let object = {
-//     firstName: "deepak",
-//     lastName: "singh",
-//     test: function() {
-//         console.log("testing");
-//     },
-//     "full name": "deepak singh"
-// }
+/**
+    let object = {
+    firstName: "deepak",
+    lastName: "singh",
+    test: function() {
+        console.log("testing");
+    },
+    "full name": "deepak singh"
+}
 
-// .
-// console.log(object.firstName);
-// console.log(object.lastName);
-// object.test()
-// console.log(object.full name); X
+.
+console.log(object.firstName);
+console.log(object.lastName);
+object.test()
+console.log(object.full name); 
 
-// []
-// console.log(object['firstName']);
-// console.log(object['lastName']);
-// object['test']()
-// console.log(object['full name']);
+[]
+console.log(object['firstName']);
+console.log(object['lastName']);
+object['test']()
+console.log(object['full name']);
 
-// Computed properties
+Computed properties
 
-// let firstName = "testing"
+let firstName = "testing"
 
-// let object = {
-//     // [firstName] : firstName
-//     firstName  // firstName: firstName
-// }
+let object = {
+    // [firstName] : firstName
+    firstName  // firstName: firstName
+}
 
-// console.log(object);
+console.log(object);
 
-// Property names limitations
-// let object = {
-//     _firstName: "deepak",
-//     $firstName: "deepak",
-//     name1: "deepak",
-//     var : "var"
-// }
+Property names limitations
+let object = {
+    _firstName: "deepak",
+    $firstName: "deepak",
+    name1: "deepak",
+    var : "var"
+}
 
-// Property existence test, “in” operator
-// console.log("var" in object);
+Property existence test, “in” operator
+console.log("var" in object);
 
-//  The "for..in" loop
-// for (const key in object) {
-//    console.log(key, object[key]);
-// }
+ The "for..in" loop
+for (const key in object) {
+   console.log(key, object[key]);
+}
 
-// Property value shorthand
-// function testing() {
-//     return {
-//         name: "deepak"
-//     }
-// }
+Property value shorthand
+function testing() {
+    return {
+        name: "deepak"
+    }
+}
 
-// let obj = testing()
+let obj = testing()
 
-// console.log(obj);
+console.log(obj);
+
+**/
 
 /**
  * 

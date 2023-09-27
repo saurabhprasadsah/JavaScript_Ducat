@@ -1,21 +1,22 @@
 //w.r.t the program Count the number? 
-
-// function countDigits(input) {
-//     var digitCount = 0;
-//     var str = String(input);
+/*function countDigits(input) {
+    var digitCount = 0;
+    var str = String(input);
   
-//     for (var i = 0; i < str.length; i++) {
+    for (var i = 0; i < str.length; i++) {
 
-//       if (/\d/.test(str.charAt(i))) {
-//         digitCount++;
-//       }
-//     }
-//     return digitCount;
-//   }
+      if (/\d/.test(str.charAt(i))) {
+        digitCount++;
+      }
+    }
+    return digitCount;
+  }
+ */ 
   
-//   var input = 565456545;
-//   var result = countDigits(input);
-//   console.log("Total number of digits: " + result);
+/* var input = 565456545;
+   var result = countDigits(input);
+   console.log("Total number of digits: " + result);
+*/  
 
 
 //write a program to revers the number?

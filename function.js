@@ -40,6 +40,7 @@ Testing()
 */
 
 /*
+
 function  testing(){
     let a =10;  //local variable or local scope
     console.log(a);
@@ -98,8 +99,6 @@ let addition = function() {
     console.log(a+b);
 }
 addition(90,30)
-
-
 
 let addition = (a,b) => a + b;
 let sum = addition(10,29);

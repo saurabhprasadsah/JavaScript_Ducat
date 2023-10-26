@@ -207,9 +207,8 @@ object is not iterable in javascript
  * Iteration over Set
  */
 
-
-
- /*new Map()
+ /*
+ new Map()
  let map = new Map();
  map.set(1,  10)
  map.set(2, 20)
@@ -239,7 +238,7 @@ Destructing assingment
  console.log(a,b,c,d);
 
 
-/pass the default the value
+pass the default the value
  let array =[10];
 
  let [a,b=10,c=30] = array;
@@ -277,8 +276,8 @@ change the name of the key and call the key value
  }
  console.log(object);
 
-destructuring in function
-object convert to json object
+ destructuring in function
+ object convert to json object
 
  console.log(JSON.stringify(object));
  let jsonobject = JSON.stringify(object);
@@ -288,8 +287,8 @@ object convert to json object
 
  json to object
  console.log(JSON.parse(jsonobject));
-json file to show the json objects
-https:restcountries.com/v3.1/all
+ json file to show the json objects
+ https:restcountries.com/v3.1/all
 
  Array destructuring
  let array = [10,20,30,40,50,60,70,80];
@@ -313,10 +312,8 @@ https:restcountries.com/v3.1/all
  let {name:{lastName}} = object
  console.log(lastName);
 
-
  let {age:{}} = object
  console.log(age);
-
 
 property flags and descriptors
 
@@ -340,10 +337,7 @@ non-configurible
      writable:false,
  });
 
-
  console.log(object.firstName);
-
-
  const object1 = {};
 
  Object.defineProperty(object1, 'property1', {
@@ -354,7 +348,6 @@ non-configurible
 
  object1.property1 = 77;
   Throws an error in strict mode
-
  console.log(object1.property1);
  Expected output: 42
 
@@ -368,12 +361,9 @@ non-writable and non-configurable
    returns the same object that was passed in.
     obj.prop = 65;
     Throws an error in strict mode
-  
    console.log(obj.prop);
    Expected output: 42
   
-
-
    const object1 = {
      a: 'somestring',
      b: 42,

@@ -38,8 +38,8 @@ Computed properties
 let firstName = "testing"
 
 let object = {
-    // [firstName] : firstName
-    firstName  // firstName: firstName
+     [firstName] : firstName
+    firstName   firstName: firstName
 }
 
 console.log(object);
@@ -86,59 +86,61 @@ console.log(obj);
  * structuredClone
  */
 
-// premitive types
-// let a = 10;
+/* premitive types
+ let a = 10;
 
-// let b = a;
+ let b = a;
 
-// reference types
+ reference types
 
-// let object = {
-//     firstName: "deepak"
-// }
+ let object = {
+     firstName: "deepak"
+ }
 
-// let object2 = object;
+ let object2 = object;
 
-// object2.firstName = "Jhon"
-// console.log(object, object2);
+ object2.firstName = "Jhon"
+ console.log(object, object2);
 
-// Comparison by reference
+ Comparison by reference
 
-// let a = {}
+ let a = {}
 
-// let b = a
+ let b = a
 
-// console.log(a === b);
+ console.log(a === b);
 
-// Cloning and merging, Object.assign
+ Cloning and merging, Object.assign
 
-// let object = {
-//     firstName: "deepak",
-//     lastName: "singh"
-// }
+ let object = {
+     firstName: "deepak",
+     lastName: "singh"
+ }
 
-// let object3 = {
-//     age: 10
-// }
+ let object3 = {
+     age: 10
+ }
 
-// copy
-// let object2 = Object.assign({},object);
+ copy
+ let object2 = Object.assign({},object);
 
-// merge
-// Object.assign(object, object3)
+ merge
+ Object.assign(object, object3)
 
-// console.log(object);
+ console.log(object);
 
-// structuredClone
+ structuredClone
 
-// let object = {
-//     firstName: "deepak",
-//     lastName: "singh"
-// }
+ let object = {
+     firstName: "deepak",
+     lastName: "singh"
+ }
 
-// let object2 = structuredClone(object);
+ let object2 = structuredClone(object);
 
-// console.log(object, object2);
+ console.log(object, object2);
+
+ */
 
 /**
  * 
@@ -149,32 +151,34 @@ console.log(obj);
  * Arrow functions have no “this”
  */
 
-// let object = {
-//     firstName: "deepak",
-//     lastName: "singh",
-//     getFullName: function () {
-//         console.log(this.firstName + ' ' + this.lastName);
-//     }
-// }
+/*
 
-// let object = {
-//     firstName: "deepak",
-//     lastName: "singh",
-//     getFullName() { // method shorthand
-//         console.log(this.firstName + ' ' + this.lastName);
-//     }
-// }
+ let object = {
+     firstName: "deepak",
+     lastName: "singh",
+     getFullName: function () {
+         console.log(this.firstName + ' ' + this.lastName);
+     }
+ }
 
-// let object = {
-//     firstName: "deepak",
-//     lastName: "singh",
-//     getFullName: () => {
-//         console.log(this) // window object
-//         console.log(this.firstName + ' ' + this.lastName); // undefined undefined
-//     }
-// }
+ let object = {
+     firstName: "deepak",
+     lastName: "singh",
+     getFullName() {  method shorthand
+         console.log(this.firstName + ' ' + this.lastName);
+     }
+ }
 
-// object.getFullName();
+ let object = {
+     firstName: "deepak",
+     lastName: "singh",
+     getFullName: () => {
+         console.log(this)  window object
+         console.log(this.firstName + ' ' + this.lastName);  undefined undefined
+     }
+ }
+
+ object.getFullName();
 
 
 /**
@@ -189,7 +193,7 @@ console.log(obj);
  * 
  * Other variants: ?.(), ?.[]
  */
-
+/*
 let object = {
     name1: {
         firstName: "deepak",
@@ -201,12 +205,14 @@ let object = {
     }
 }
 
-// object property as object
-// console.log(object.name?.firstName);
-// console.log(object.name?.lastName);
+ object property as object
+ console.log(object.name?.firstName);
+ console.log(object.name?.lastName);
 
-// array
-// console.log(object.nums?.[0]);
+ array
+ console.log(object.nums?.[0]);
 
-// function
+ function
 object.testing?.()
+
+*/

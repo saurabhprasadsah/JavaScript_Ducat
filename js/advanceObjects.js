@@ -26,63 +26,63 @@
  * 
  */
 
-// let object = {
-//     firstName: 'John',
-//     lastName: 'doe'
-// }
+/* let object = {
+     firstName: 'John',
+     lastName: 'doe'
+ }
 
-// console.log(object);
+ console.log(object);
 
-// let descriptor = Object.getOwnPropertyDescriptors(object);
+ let descriptor = Object.getOwnPropertyDescriptors(object);
 
-// console.log(descriptor);
+ console.log(descriptor);
 
-// writable 
-// let object = {
-//     firstName: 'John',
-//     lastName: 'doe'
-// }
+ writable 
+ let object = {
+     firstName: 'John',
+     lastName: 'doe'
+ }
 
-// Object.defineProperty(object, 'firstName', {
-//     writable: false
-// })
+ Object.defineProperty(object, 'firstName', {
+     writable: false
+ })
 
-// let descriptor = Object.getOwnPropertyDescriptors(object);
+ let descriptor = Object.getOwnPropertyDescriptors(object);
 
-// console.log(descriptor);
+ console.log(descriptor);
 
-// object.firstName = "deepak"
+ object.firstName = "deepak"
 
-// console.log(object);
+ console.log(object);
 
-// configurable
-// let object = {
-//     firstName: 'John',
-//     lastName: 'doe'
-// }
+ configurable
+ let object = {
+     firstName: 'John',
+     lastName: 'doe'
+ }
 
-// Object.defineProperty(object, 'lastName', {
-//     configurable: false
-// })
+ Object.defineProperty(object, 'lastName', {
+     configurable: false
+ })
 
-// delete object.lastName;
-// console.log(object);
+ delete object.lastName;
+ console.log(object);
 
-// enumerable
-// let object = {
-//     firstName: 'John',
-//     lastName: 'doe'
-// }
+ enumerable
+ let object = {
+     firstName: 'John',
+     lastName: 'doe'
+ }
 
-// Object.defineProperty(object, 'firstName', {
-//     enumerable: false
-// })
+ Object.defineProperty(object, 'firstName', {
+     enumerable: false
+ })
 
-// console.log(object);
+ console.log(object);
 
-// for (const key in object) {
-//     console.log(key , object[key]);
-// }
+ for (const key in object) {
+     console.log(key , object[key]);
+ }
 
 /**
  * 
@@ -97,32 +97,32 @@
  * Smarter getters/setters
  * 
  */
+/*
+ getter
+ let object = {
+     firstName: 'John',
+     lastName: 'doe',
+     getFirstName: function() {
+         return this.firstName;
+     },
+     get getfirstname() {
+         return this.firstName;
+     }
+ }
 
-// getter
-// let object = {
-//     firstName: 'John',
-//     lastName: 'doe',
-//     getFirstName: function() {
-//         return this.firstName;
-//     },
-//     get getfirstname() {
-//         return this.firstName;
-//     }
-// }
+  .
+ console.log(object.firstName);
 
-// // .
-// console.log(object.firstName);
+  []
+ console.log(object['firstName']);
 
-// // []
-// console.log(object['firstName']);
+  method
+ console.log(object.getFirstName());
 
-// // method
-// console.log(object.getFirstName());
+  getter
+ console.log(object.getfullname);
 
-// // getter
-// console.log(object.getfullname);
-
-// setter
+ setter
 let object = {
     firstName: 'John',
     lastName: 'doe',
@@ -134,12 +134,13 @@ let object = {
     }
 }
 
-// . []
+ . []
 object.firstName = "Deepak"
 object['firstName'] = "Deepak"
 
-// method
+ method
 object.setFirstName('deepak')
 
-// setter
+ setter
 object.setfirstname = "deepak"
+*/

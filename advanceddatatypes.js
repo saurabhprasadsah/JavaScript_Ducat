@@ -1,148 +1,148 @@
-// let a =" kdgagda";
+/* let a =" kdgagda";
 
-// let b = 'akdadbabdabb';
+ let b = 'akdadbabdabb';
  
-// let c = `dadajbdkjbaldnlandlnand
-// ${a}
-// lkadlnadnandlnad
-// kadaldanlda`;
-// console.log(c);
+ let c = `dadajbdkjbaldnlandlnand
+ ${a}
+ lkadlnadnandlnad
+ kadaldanlda`;
+ console.log(c);
 
-// let a = "saurabh\\kumar"
-// console.log(a);
-// let name = "saurabh\\kumar";
+ let a = "saurabh\\kumar"
+ console.log(a);
+ let name = "saurabh\\kumar";
 
-// console.log(name.length);
-
-
-
-//accsesing character
-// let name= "saurabh kumar";
-// console.log(name[0]);
-// console.log(name[2]);
-
-// for (const key in name) {
-//     console.log(name);
-// }
-
-// let name = "saurabhkumar" /// string are immutable
-
-// name[1] ="e"
-// console.log(name);
-
-//let name = "deepak singh gussain"
-
-// console.log(name.includes('deepak'));
-
-// console.log(name.includes('d'));
-
- //console.log(name.endsWith('ain'));
-
-//console.log(name.startsWith('dee'));
+ console.log(name.length);
 
 
 
-//INDEXOF
+accsesing character
+ let name= "saurabh kumar";
+ console.log(name[0]);
+ console.log(name[2]);
 
-// let name ="saurabhkumar"
+ for (const key in name) {
+     console.log(name);
+ }
 
-// console.log(name.indexOf('saurabh'));
+ let name = "saurabhkumar" / string are immutable
 
-//lastindexof
+ name[1] ="e"
+ console.log(name);
 
-//  let name ="saurabhkumar";
+let name = "deepak singh gussain"
+
+ console.log(name.includes('deepak'));
+
+ console.log(name.includes('d'));
+
+ console.log(name.endsWith('ain'));
+
+console.log(name.startsWith('dee'));
 
 
 
-//  console.log(name.lastIndexOf("r"));
+INDEXOF
+
+ let name ="saurabhkumar"
+
+ console.log(name.indexOf('saurabh'));
+
+lastindexof
+
+  let name ="saurabhkumar";
+
+
+
+  console.log(name.lastIndexOf("r"));
 
 
 
 
-//CAMPARING STRING...
+CAMPARING STRING...
 
-// let name = "deepak kumar gussain"
+ let name = "deepak kumar gussain"
 
-// for (const value of name) {
-//     console.log(value.codePointAt());
+ for (const value of name) {
+     console.log(value.codePointAt());
     
-// }
+ }
 
-//Array
+Array
 
-//[]
+[]
 
-// let array=[10,30,40,50]
+ let array=[10,30,40,50]
 
-// console.log(array);
+ console.log(array);
 
-//new array
-// let array = new Array(10);
+new array
+ let array = new Array(10);
 
-// console.log(array);
+ console.log(array);
 
-//ARRAY.OF
-// let array = Array.OF(10);
+ARRAY.OF
+ let array = Array.OF(10);
 
-// console.log(array);  
-
-
-//Multidimensional array
+ console.log(array);  
 
 
-// let array =[[10,20],
-//     [30,40,50], 
-//        [40,65,85,45]
-// ]
-// console.log(array[2][3]);
+Multidimensional array
 
 
-//ARRAY FROM
-// let array = Array.from([10,20,30]);
+ let array =[[10,20],
+     [30,40,50], 
+        [40,65,85,45]
+ ]
+ console.log(array[2][3]);
 
-// console.log(array);
+
+ARRAY FROM
+ let array = Array.from([10,20,30]);
+
+ console.log(array);
 
 
 
-// Push arrray
+ Push arrray
 
-// let array = [10,20,30,40,50,60]
+ let array = [10,20,30,40,50,60]
 
-// let returnValue = array.push(1000)
-// console.log(array, returnValue)
+ let returnValue = array.push(1000)
+ console.log(array, returnValue)
 
-// let array = [10,20,30,40,50,60]
+ let array = [10,20,30,40,50,60]
 
-//pop will be remove the value from the array
+pop will be remove the value from the array
 
-// let returnValue =  array.pop()
-// console.log(array, returnValue);
+ let returnValue =  array.pop()
+ console.log(array, returnValue);
 
-// let array = [10,20,30,40,50,60]
-//unshift will be add the value from the 1st index
-// let = array.unshift(1000)
-// console.log(array)
+ let array = [10,20,30,40,50,60]
+unshift will be add the value from the 1st index
+ let = array.unshift(1000)
+ console.log(array)
 
-// let array = [10,20,30,40,50,60]
-//shift will be remove the first value form the index
-// let returnValue =array.shift()
-// console.log(array,returnValue);
-//splice (add,update, and delete)
-// let array =[10,20,30,40,50]
-//delete the value
-// let returnValue = array.splice(2,2)
+ let array = [10,20,30,40,50,60]
+shift will be remove the first value form the index
+ let returnValue =array.shift()
+ console.log(array,returnValue);
+splice (add,update, and delete)
+ let array =[10,20,30,40,50]
+delete the value
+ let returnValue = array.splice(2,2)
 
-// console.log(array,returnValue);
+ console.log(array,returnValue);
 
-// let array =[10,20,30,40,50]
-//add
-// let returnValue = array.splice(2,2,100,200)
-// console.log(array,returnValue);
+ let array =[10,20,30,40,50]
+add
+ let returnValue = array.splice(2,2,100,200)
+ console.log(array,returnValue);
 
-// let array =[10,20,30,40,50]
+ let array =[10,20,30,40,50]
 
-// let  = array.splice(2,0,100,200)
-// console.log(array);
+ let  = array.splice(2,0,100,200)
+ console.log(array);
 
 
 /**
@@ -152,29 +152,29 @@
  * Iterables and array-likes
  */
 
-// let array = [10,20,30,40]
+/* let array = [10,20,30,40]
 
-// for (const value of array){
-//     console.log(array);
-// }
+ for (const value of array){
+     console.log(array);
+ }
 
-// let str = "saurabh"
+ let str = "saurabh"
 
-// for (const value of str){
-//     console.log(str);
-// }
+ for (const value of str){
+     console.log(str);
+ }
 
-//object is not iterable in javascript
-// let object = {
-// firstname:"saurabh",
-// lastname:"kumar",
+object is not iterable in javascript
+ let object = {
+ firstname:"saurabh",
+ lastname:"kumar",
 
-// }
-// console.log(object);
+ }
+ console.log(object);
 
-// for(const key of object){
-//     console.log(key);
-// }
+ for(const key of object){
+     console.log(key);
+ }
 
 
 /**
@@ -209,193 +209,194 @@
 
 
 
-// new Map()
+ /*new Map()
+ let map = new Map();
+ map.set(1,  10)
+ map.set(2, 20)
+ map.set(3, 30)
+ map.set(4, 40)
+ map.set(5, 50)
+ map.set(6, 60)
+ map.set(7, 70)
+ map.set(8, 80)
 
-// let map = new Map();
-// map.set(1,  10)
-// map.set(2, 20)
-// map.set(3, 30)
-// map.set(4, 40)
-// map.set(5, 50)
-// map.set(6, 60)
-// map.set(7, 70)
-// map.set(8, 80)
+ console.log(map.get(4));
 
-// console.log(map.get(4));
+ console.log(map.has(5));
 
-// console.log(map.has(5));
+ console.log(map.delete(5));
+ console.log(map);
 
-// //console.log(map.delete(5));
-// console.log(map);
-
-//map.clear()
-// console.log(map);
-
-
-//Destructing assingment
-
-// let array = [10,20,30,40];
-
-// let [a,b,c,d] = array;
-// console.log(a,b,c,d);
+map.clear()
+ console.log(map);
 
 
-///pass the default the value
-// let array =[10];
+Destructing assingment
 
-// let [a,b=10,c=30] = array;
+ let array = [10,20,30,40];
 
-// console.log(a,b,c);
-
-
-//object 
+ let [a,b,c,d] = array;
+ console.log(a,b,c,d);
 
 
-// let object={
-//     firtName:"saurabh",
-//     lastName:"kumar",
-//     age:10
-// }
+/pass the default the value
+ let array =[10];
+
+ let [a,b=10,c=30] = array;
+
+ console.log(a,b,c);
 
 
-//call the value will be on the key pair
-// let {firtName,lastName,age,test ="test"} =object
-
-//rename the key of objects
-// let {firstName:first,lastName,age} = object
-
-//change the name of the key and call the key value
-
-// console.log(first,lastName,age);
-
-// console.log(object);
+object 
 
 
-// let object = {
-//  firstname:"saurabh",
-//  lastname:"kumar",
-//  age:10
-// }
-// console.log(object);
-
-//destructuring in function
-//object convert to json object
-
-// console.log(JSON.stringify(object));
-// let jsonobject = JSON.stringify(object);
-
-// //TYPE OF JSONOBJECT
-// console.log(typeof jsonobject);
-
-// //json to object
-// console.log(JSON.parse(jsonobject));
-//json file to show the json objects
-//https://restcountries.com/v3.1/all
-
-// Array destructuring
-// let array = [10,20,30,40,50,60,70,80];
-// let [a,b,...c] = array;
-// console.log(a, b,c);
-
-// let object = {
-//     name: {
-//         firstName: 'John',
-//         lastName: 'Doe'
-//     },
-//     age: 10
-// }
-
-// let {age, ...test} = object;
-// console.log(age, test);
-
-// let {name:{firstName}} = object
-// console.log(firstName);
-
-// let {name:{lastName}} = object
-// console.log(lastName);
+ let object={
+     firtName:"saurabh",
+     lastName:"kumar",
+     age:10
+ }
 
 
-// let {age:{}} = object
-// console.log(age);
+call the value will be on the key pair
+ let {firtName,lastName,age,test ="test"} =object
+
+rename the key of objects
+ let {firstName:first,lastName,age} = object
+
+change the name of the key and call the key value
+
+ console.log(first,lastName,age);
+
+ console.log(object);
 
 
-//property flags and descriptors
+ let object = {
+  firstname:"saurabh",
+  lastname:"kumar",
+  age:10
+ }
+ console.log(object);
 
-//property flags
-//writabl - if true the value can be changed otherwise read only!
-//non-writble
-//non-enumerable
-//non-configurible
-// //objec.define property
-// //object.getdown property descriptors
+destructuring in function
+object convert to json object
 
-// let object ={
-//     firstName:"saurabh",
-//     lastName:"kumar"
-// }
-// // console.log(object.firstName);  
-// // console.log(object);
+ console.log(JSON.stringify(object));
+ let jsonobject = JSON.stringify(object);
 
-// Object.defineProperty(object,'firstName',{
-//     firstName:"raju",
-//     writable:false,
-// });
+ TYPE OF JSONOBJECT
+ console.log(typeof jsonobject);
+
+ json to object
+ console.log(JSON.parse(jsonobject));
+json file to show the json objects
+https:restcountries.com/v3.1/all
+
+ Array destructuring
+ let array = [10,20,30,40,50,60,70,80];
+ let [a,b,...c] = array;
+ console.log(a, b,c);
+
+ let object = {
+     name: {
+         firstName: 'John',
+         lastName: 'Doe'
+     },
+     age: 10
+ }
+
+ let {age, ...test} = object;
+ console.log(age, test);
+
+ let {name:{firstName}} = object
+ console.log(firstName);
+
+ let {name:{lastName}} = object
+ console.log(lastName);
 
 
-// console.log(object.firstName);
+ let {age:{}} = object
+ console.log(age);
 
 
-// const object1 = {};
+property flags and descriptors
 
-// Object.defineProperty(object1, 'property1', {
-//   value: 42,
-//   //in this case the value updated 
-//   writable:false|true,
-// });
+property flags
+writabl - if true the value can be changed otherwise read only!
+non-writble
+non-enumerable
+non-configurible
+ objec.define property
+ object.getdown property descriptors
 
-// object1.property1 = 77;
-// // Throws an error in strict mode
+ let object ={
+     firstName:"saurabh",
+     lastName:"kumar"
+ }
+  console.log(object.firstName);  
+  console.log(object);
 
-// console.log(object1.property1);
-// Expected output: 42
+ Object.defineProperty(object,'firstName',{
+     firstName:"raju",
+     writable:false,
+ });
 
-//freeze 
-//non-writable and non-configurable
-// const obj = {
-//      prop: 65,
-//   };
+
+ console.log(object.firstName);
+
+
+ const object1 = {};
+
+ Object.defineProperty(object1, 'property1', {
+   value: 42,
+   in this case the value updated 
+   writable:false|true,
+ });
+
+ object1.property1 = 77;
+  Throws an error in strict mode
+
+ console.log(object1.property1);
+ Expected output: 42
+
+freeze 
+non-writable and non-configurable
+ const obj = {
+      prop: 65,
+   };
   
-//   Object.freeze(obj);
-//   //returns the same object that was passed in.
-//    obj.prop = 65;
-//   // Throws an error in strict mode
+   Object.freeze(obj);
+   returns the same object that was passed in.
+    obj.prop = 65;
+    Throws an error in strict mode
   
-//   console.log(obj.prop);
-  // Expected output: 42
+   console.log(obj.prop);
+   Expected output: 42
   
 
 
-//   const object1 = {
-//     a: 'somestring',
-//     b: 42,
-//   };
+   const object1 = {
+     a: 'somestring',
+     b: 42,
+   };
   
-//   for (const [key, value] of Object.entries(object1)) {
-//     console.log(`${key}: ${value}`);
-//   }
-//return the array of the given objects
-//   for(const [key, value] of Object.entries(object1)){
-//     console.log(`${key}: ${value}`)
-//   }
+   for (const [key, value] of Object.entries(object1)) {
+     console.log(`${key}: ${value}`);
+   }
+return the array of the given objects
+   for(const [key, value] of Object.entries(object1)){
+     console.log(`${key}: ${value}`)
+   }
 
 
-// const obj = { foo: "bar", baz: 42 };
-// console.log(Object.entries(obj));
+ const obj = { foo: "bar", baz: 42 };
+ console.log(Object.entries(obj));
 
 
-// let obj1 ={name:"Saurabh", age:45};
+ let obj1 ={name:"Saurabh", age:45};
 
-// console.log(Object.entries(obj1));
+ console.log(Object.entries(obj1));
+
+ */
 
   
 
